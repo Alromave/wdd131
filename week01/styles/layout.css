@@ -1,0 +1,38 @@
+header {
+    background-color: gray;
+    place-items: left;
+    color: whitesmoke;
+    font-size: x-small;
+    
+    nav{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between ;
+        
+        background-color: black;
+        color: aliceblue;
+        font-size: medium;
+    }
+}
+body {
+    display: grid;
+    flex-wrap: wrap;
+    font-size: small;
+    first {
+        background-color: gray;
+
+    }
+    second {
+        background-color: aliceblue;
+    }
+    
+
+    
+}
+
+
+footer {
+    display: grid;
+    place-items: center;
+    background-color:gray
+}
