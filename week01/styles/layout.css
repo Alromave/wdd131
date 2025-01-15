@@ -1,3 +1,4 @@
+
 header {
     background-color: gray;
     place-items: left;
@@ -15,16 +16,22 @@ header {
     }
 }
 body {
-    display: grid;
-    flex-wrap: wrap;
-    font-size: small;
-    first {
-        background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    main{
+        
+        width: 80%;
+        color: black;
+        background-color: rgb(223, 210, 210);
 
     }
-    second {
-        background-color: aliceblue;
+    aside{
+        
+        width: 20%;
+        color: black;
+        background-color: white;
+
     }
+    
     
 
     
@@ -34,5 +41,7 @@ body {
 footer {
     display: grid;
     place-items: center;
-    background-color:gray
+    background-color:black;
+    color: aliceblue;
+
 }
